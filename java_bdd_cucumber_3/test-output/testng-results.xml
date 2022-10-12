@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T11:47:23 IST" name="Default suite" finished-at="2022-10-12T11:49:17 IST" duration-ms="114197">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runner.CucumberRunnerTests@25ce9dc4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-10-12T11:47:23 IST" name="Default test" finished-at="2022-10-12T11:49:17 IST" duration-ms="114197">
+      <class name="com.example.runner.CucumberRunnerTests">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.example.runner.CucumberRunnerTests@25ce9dc4]" started-at="2022-10-12T11:47:23 IST" name="setUpClass" finished-at="2022-10-12T11:47:23 IST" duration-ms="420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@25a94b55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runner.CucumberRunnerTests@25ce9dc4]" started-at="2022-10-12T11:47:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-12T11:49:08 IST" duration-ms="104596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login text in home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Check Login Box"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runner.CucumberRunnerTests@25ce9dc4]" started-at="2022-10-12T11:49:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-12T11:49:09 IST" duration-ms="1587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check Top Categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Top Categories"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.runner.CucumberRunnerTests@25ce9dc4]" started-at="2022-10-12T11:49:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-12T11:49:14 IST" duration-ms="4423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open Mobile Category and Verify filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mobile Category"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.runner.CucumberRunnerTests@25ce9dc4]" started-at="2022-10-12T11:49:14 IST" name="tearDownClass" finished-at="2022-10-12T11:49:17 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.example.runner.CucumberRunnerTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
